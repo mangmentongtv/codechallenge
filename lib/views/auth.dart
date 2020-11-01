@@ -10,7 +10,6 @@ class Auth extends StatelessWidget {
     return FutureBuilder(
       future: authController.checkLoginUser(),
       builder: (context, snapshot) {
-        print(snapshot.hasData);
         if (snapshot.hasData) {
           return snapshot.data;
         }

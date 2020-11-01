@@ -9,7 +9,6 @@ class AuthController extends GetxController {
 
   Future<Widget> checkLoginUser() async {
     final storedRefreshToken = await secureStorage.read(key: 'refresh_token');
-    print(storedRefreshToken);
     if (storedRefreshToken == null) {
       return OnboardingView();
     } else {

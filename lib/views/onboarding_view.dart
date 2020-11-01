@@ -31,13 +31,12 @@ class OnboardingView extends StatelessWidget {
     return Flexible(
         flex: 1,
         child: Padding(
-          padding: EdgeInsets.all(20.0),
-          child: BtnPrimary(
-            title: 'Continue with Github',
-            onPressed: () {
-              login.login();
-            },
-          ),
-        ));
+            padding: EdgeInsets.all(20.0),
+            child: BtnPrimary(
+              title: 'Continue with Github',
+              onPressed: () {
+                login.login();
+              },
+            )));
   }
 }

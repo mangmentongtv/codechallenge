@@ -122,7 +122,7 @@ class HomeView extends StatelessWidget {
           TableRow(children: [
             Padding(
                 padding: EdgeInsets.all(10.0),
-                child: Text('Latitube',
+                child: Text('Latitude',
                     style: TextStyle(
                         fontSize: 16.0, fontWeight: FontWeight.bold))),
             Padding(
