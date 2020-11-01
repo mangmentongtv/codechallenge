@@ -3,7 +3,6 @@
 ### PLatforms
 * IOS
 * Android
-* Web
 
 ### Instruction
 <p>Clone this project and save anywhere you want</p> 
